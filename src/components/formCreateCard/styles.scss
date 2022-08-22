@@ -1,0 +1,91 @@
+.form {
+  background-color: #f2f2f2;
+  &Product {
+    width: 613px;
+    height: 538px;
+    margin: auto;
+    background: linear-gradient(180deg, #f8f9fb 0%, #ffffff 100%);
+    box-shadow: 0px 11px 41px rgba(0, 0, 0, 0.0851453);
+    backdrop-filter: blur(71.6137px);
+    border-radius: 6px;
+    &_title {
+      font-family: "Abel";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 45px;
+      /* identical to box height */
+      color: #093df4;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding-top: 36px;
+      padding-bottom: 30px;
+    }
+    &_input {
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+      &_txt {
+        width: 20%;
+        text-align: left;
+        margin-left: 50px;
+      }
+      &_value {
+        width: 50%;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 14px;
+        padding-left: 10px;
+      }
+      &_value::placeholder {
+        color: #bbb;
+      }
+      &_value:focus-visible {
+        outline: none;
+        border-bottom: 2px solid black;
+      }
+      &_btn {
+        width: 134px;
+        height: 43px;
+        font-family: "Abel";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21.0762px;
+        line-height: 27px;
+        border: 0;
+        transition: 0.25s;
+        &:hover,
+        &:focus {
+          cursor: pointer;
+          // color: #fff;
+        }
+        &Submit {
+          background: #4ab9f8;
+          box-shadow: 0px 23px 60px rgba(0, 0, 0, 0.0851453);
+          backdrop-filter: blur(71.6137px);
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 6px;
+          color: #ffffff;
+          margin-right: 10px;
+          &:hover {
+            box-shadow: 0 0.5em 0.5em -0.4em #000;
+            transform: translateY(-0.25em);
+          }
+        }
+        &Reset {
+          background: rgba(0, 0, 0, 0.0001);
+          box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.0359211),
+            0px 23px 60px rgba(0, 0, 0, 0.0851453);
+          backdrop-filter: blur(71.6137px);
+          /* Note: backdrop-filter has minimal browser support */
+
+          border-radius: 6px;
+          color: #666666;
+          &:hover {
+            box-shadow: 0 0.5em 0.5em -0.4em #000;
+            transform: translateY(-0.25em);
+          }
+        }
+      }
+    }
+  }
+}

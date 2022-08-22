@@ -1,0 +1,19 @@
+.main {
+  background: #d0f5ac;
+  padding: 72px 69px;
+  &_total {
+    text-align: left;
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+  &_number {
+    font-weight: bold !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

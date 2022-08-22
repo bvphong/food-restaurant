@@ -1,0 +1,68 @@
+.itemNotifi {
+  display: flex;
+  align-items: center;
+
+  width: 500px;
+  height: 79px;
+  background: rgba(253, 247, 247, 0.74);
+  padding: 5px 10px;
+  & > * {
+    margin-right: 15px;
+  }
+  &_img {
+    width: 73px;
+    height: 73px;
+    margin-top: 22px;
+    margin-right: 25px;
+    img {
+      max-width: 100%;
+    }
+  }
+  &_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &_des,
+  &_ins {
+    button {
+      width: 29px;
+      height: 30px;
+      background: #fff;
+      border: none;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 5px 2px;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+  }
+  &_num,
+  &_prices {
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  &_delete {
+    button {
+      width: 42px;
+      height: -1px;
+      background: rgba(253, 247, 247, 0.74);
+      border: none;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 36px;
+      margin: 5px 2px;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+  }
+}

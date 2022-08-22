@@ -1,0 +1,33 @@
+.listItemNotifi {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  z-index: 100;
+  top: 99px;
+  right: 18px;
+  padding: 16px;
+  background: rgb(33, 197, 243);
+  &_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    color: #ffffff;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  &_number {
+    width: 40px;
+    height: 39px;
+    background: #e91616;
+    border-radius: 50px;
+    margin-left: 32px;
+  }
+  &_total {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+}
